@@ -92,20 +92,3 @@ STM32F411 보드, RFID, 서보모터, I2C LCD, LED를 활용해 제작한 교통
 
 <img src="docs/images/flowchart.png" width="600">
 
----
-
-## 🧩 핵심 로직 (C 코드)
-
-```c
-// 보행 신호 초록불 로직
-if (isSenior) {
-    pedestrianTime = 40;
-} else {
-    pedestrianTime = 30;
-}
-
-while (pedestrianTime > 0) {
-    updateLCD(pedestrianTime);
-    HAL_Delay(1000);
-    pedestrianTime--;
-}
