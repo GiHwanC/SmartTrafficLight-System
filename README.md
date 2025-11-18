@@ -78,7 +78,13 @@ STM32F411 보드, RFID, 서보모터, I2C LCD, LED를 활용해 제작한 교통
 
 ## 🧱 시스템 구성
 
-<img src="docs/images/system.png" width="600">
+<img src="docs/images/system_overview.png" width="600">
+
+---
+
+## 🧷 핀맵
+
+<img src="docs/images/pinmap.png" width="600">
 
 ---
 
